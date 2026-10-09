@@ -7,6 +7,7 @@ const tasksRoutes = require("./routes/tasks");
 
 const allowedOrigins = [
   "http://localhost:5173", // local dev (Vite's default port)
+  "https://session5-deploy.vercel.app",
 ];
 
 const app = express();
